@@ -1,9 +1,3 @@
-torch
-torchvision
-transformers
-scikit-learn
 pandas
-numpy
-tqdm
-ftfy
-regex
+nltk
+rouge-score
