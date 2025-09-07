@@ -1,8 +1,14 @@
-/data/
-/runs/
-/__pycache__/
-*.npy
-*.pt
-*.pkl
-*.csv
+# Ignore dataset and large files
+data/
+*.zip
+*.json
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
 .DS_Store
+
+# Ignore Python cache
+__pycache__/
+*.pyc
